@@ -57,7 +57,7 @@ public class LoginTest extends BaseClass {
 		WebElement LoginBtn=driver.findElement(By.xpath("//*[@id=\"content\"]/div/div[2]/div/form/input"));		
 		
 		Email.clear();
-		Email.sendKeys("mail22@mail.com");
+		Email.sendKeys("mail11@mail.com");
 		Thread.sleep(3000);
 		
 		Password.clear();
