@@ -1,29 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-19T20:32:54 BDT" name="Automation Suite" finished-at="2021-03-19T20:34:05 BDT" duration-ms="70507">
+  <suite started-at="2021-03-19T20:50:28 BDT" name="Automation Suite" finished-at="2021-03-19T20:50:35 BDT" duration-ms="6339">
     <groups>
     </groups>
-    <test started-at="2021-03-19T20:32:54 BDT" name="Demo Test" finished-at="2021-03-19T20:34:05 BDT" duration-ms="70507">
-      <class name="com.TestNG.RegistrationTestNG">
-        <test-method is-config="true" signature="config()[pri:0, instance:com.TestNG.RegistrationTestNG@383bfa16]" started-at="2021-03-19T20:32:54 BDT" name="config" finished-at="2021-03-19T20:33:02 BDT" duration-ms="7558" status="PASS">
+    <test started-at="2021-03-19T20:50:28 BDT" name="Demo Test" finished-at="2021-03-19T20:50:35 BDT" duration-ms="6339">
+      <class name="com.Screenshots.PageScreenshot">
+        <test-method is-config="true" signature="config()[pri:0, instance:com.Screenshots.PageScreenshot@7133da86]" started-at="2021-03-19T20:50:28 BDT" name="config" finished-at="2021-03-19T20:50:34 BDT" duration-ms="5416" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- config -->
-        <test-method signature="inValid_Registration()[pri:0, instance:com.TestNG.RegistrationTestNG@383bfa16]" started-at="2021-03-19T20:33:02 BDT" name="inValid_Registration" description="Invalid Registration" finished-at="2021-03-19T20:33:34 BDT" duration-ms="32015" status="PASS">
+        <test-method signature="generateScreenshot()[pri:0, instance:com.Screenshots.PageScreenshot@7133da86]" started-at="2021-03-19T20:50:34 BDT" name="generateScreenshot" finished-at="2021-03-19T20:50:34 BDT" duration-ms="687" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- inValid_Registration -->
-        <test-method signature="valid_Registration()[pri:0, instance:com.TestNG.RegistrationTestNG@383bfa16]" started-at="2021-03-19T20:33:34 BDT" name="valid_Registration" description="Valid Registration" finished-at="2021-03-19T20:34:04 BDT" duration-ms="30683" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- valid_Registration -->
-        <test-method is-config="true" signature="closeTest()[pri:0, instance:com.TestNG.RegistrationTestNG@383bfa16]" started-at="2021-03-19T20:34:04 BDT" name="closeTest" finished-at="2021-03-19T20:34:05 BDT" duration-ms="203" status="PASS">
+        </test-method> <!-- generateScreenshot -->
+        <test-method is-config="true" signature="closeTest()[pri:0, instance:com.Screenshots.PageScreenshot@7133da86]" started-at="2021-03-19T20:50:34 BDT" name="closeTest" finished-at="2021-03-19T20:50:35 BDT" duration-ms="185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTest -->
-      </class> <!-- com.TestNG.RegistrationTestNG -->
+      </class> <!-- com.Screenshots.PageScreenshot -->
     </test> <!-- Demo Test -->
   </suite> <!-- Automation Suite -->
 </testng-results>
