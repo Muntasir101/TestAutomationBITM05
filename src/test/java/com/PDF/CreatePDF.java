@@ -1,4 +1,4 @@
-package com.Screenshots;
+package com.PDF;
 
 import java.io.IOException;
 
@@ -7,32 +7,28 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import com.Base.BaseClass;
+import com.itextpdf.text.DocumentException;
 
-public class PageScreenshot extends BaseClass {
+public class CreatePDF extends BaseClass {
 
 	@BeforeTest
 	public void config() {
 		launchChrome();
-		openHomePage();
+		
 	}
 
 
 	@Test
-	public void Screenshot() throws IOException {
-		Screenshot(driver,"New Image");
-		Screenshot(driver,"New Image2");
+	public void CustomPDF() throws IOException, DocumentException {
 
+		driver.get("https://google.com");
+		PdfGenerate(driver,"Google Test Report");
 	}
 
-	@Test
-	public void Screenshot2() throws IOException {
-		Screenshot(driver,"New Image3");
-	}
 
 	@AfterTest
 	public void closeTest() {
 
 		closeBrowser();
 	}
-
 }

@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,7 +104,22 @@
                     <div class="method-list-content passed suite-Automation_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Automation_Suite" title="com.Screenshots.PageScreenshot" class="method navigator-link" hash-for-method="generateScreenshot">generateScreenshot</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.TestNG.LoginDataDriven" class="method navigator-link" hash-for-method="LoginTest(email2@invalid.com, 123456)">LoginTest(email2@invalid.com, 123456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.TestNG.LoginDataDriven" class="method navigator-link" hash-for-method="LoginTest(email@mail.com, 12345678)">LoginTest(email@mail.com, 12345678)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.TestNG.LoginDataDriven" class="method navigator-link" hash-for-method="LoginTest(email1@invalid.com, 123456)">LoginTest(email1@invalid.com, 123456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.TestNG.LoginDataDriven" class="method navigator-link" hash-for-method="LoginTest(email3@invalid.com, 123456)">LoginTest(email3@invalid.com, 123456)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Automation_Suite -->
@@ -122,14 +137,39 @@
           <div class="suite-Automation_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.Screenshots.PageScreenshot</span>
+              <span class="class-name">com.TestNG.LoginDataDriven</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="generateScreenshot">
-                  </a> <!-- generateScreenshot -->
-                  <span class="method-name">generateScreenshot</span>
+                  <a name="LoginTest(email2@invalid.com, 123456)">
+                  </a> <!-- LoginTest(email2@invalid.com, 123456) -->
+                  <span class="method-name">LoginTest</span>
+                  <span class="parameters">(email2@invalid.com, 123456)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginTest(email@mail.com, 12345678)">
+                  </a> <!-- LoginTest(email@mail.com, 12345678) -->
+                  <span class="method-name">LoginTest</span>
+                  <span class="parameters">(email@mail.com, 12345678)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginTest(email1@invalid.com, 123456)">
+                  </a> <!-- LoginTest(email1@invalid.com, 123456) -->
+                  <span class="method-name">LoginTest</span>
+                  <span class="parameters">(email1@invalid.com, 123456)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginTest(email3@invalid.com, 123456)">
+                  </a> <!-- LoginTest(email3@invalid.com, 123456) -->
+                  <span class="method-name">LoginTest</span>
+                  <span class="parameters">(email3@invalid.com, 123456)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -146,7 +186,7 @@
 &lt;suite name=&quot;Automation Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Demo Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.Screenshots.PageScreenshot&quot;/&gt;
+      &lt;class name=&quot;com.TestNG.LoginDataDriven&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Demo Test --&gt;
 &lt;/suite&gt; &lt;!-- Automation Suite --&gt;
@@ -186,16 +226,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'generateScreenshot')
-data.setCell(0, 2, 'com.Screenshots.PageScreenshot')
-data.setCell(0, 3, 687);
+data.setCell(0, 1, 'LoginTest')
+data.setCell(0, 2, 'com.TestNG.LoginDataDriven')
+data.setCell(0, 3, 10830);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'LoginTest')
+data.setCell(1, 2, 'com.TestNG.LoginDataDriven')
+data.setCell(1, 3, 10063);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'LoginTest')
+data.setCell(2, 2, 'com.TestNG.LoginDataDriven')
+data.setCell(2, 3, 9399);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'LoginTest')
+data.setCell(3, 2, 'com.TestNG.LoginDataDriven')
+data.setCell(3, 3, 9354);
 window.suiteTableData['Automation_Suite']= { tableData: data, tableDiv: 'times-div-Automation_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 687 ms</span>
+              <span class="suite-total-time">Total running time: 39 seconds</span>
               <div id="times-div-Automation_Suite">
               </div> <!-- times-div-Automation_Suite -->
             </div> <!-- times-div -->
@@ -221,18 +273,30 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.Screenshots.PageScreenshot</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.TestNG.LoginDataDriven</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">config</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">generateScreenshot</span>
-                <span class="method-start">5452 ms</span>
+                <span class="method-name">LoginTest(email1@invalid.com, 123456)</span>
+                <span class="method-start">3012 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginTest(email2@invalid.com, 123456)</span>
+                <span class="method-start">13848 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginTest(email3@invalid.com, 123456)</span>
+                <span class="method-start">23918 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginTest(email@mail.com, 12345678)</span>
+                <span class="method-start">33274 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">closeTest</span>
-                <span class="method-start">6143 ms</span>
+                <span class="method-start">42676 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

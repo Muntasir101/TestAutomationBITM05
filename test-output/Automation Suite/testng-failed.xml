@@ -3,14 +3,13 @@
 <suite name="Failed suite [Automation Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Demo Test(failed)">
     <classes>
-      <class name="com.TestNG.RegistrationTestNG">
+      <class name="com.TestNG.DataDriven">
         <methods>
-          <include name="valid_Registration"/>
-          <include name="closeTest"/>
-          <include name="inValid_Registration"/>
+          <include name="doSearch"/>
           <include name="config"/>
+          <include name="closeTest"/>
         </methods>
-      </class> <!-- com.TestNG.RegistrationTestNG -->
+      </class> <!-- com.TestNG.DataDriven -->
     </classes>
   </test> <!-- Demo Test(failed) -->
 </suite> <!-- Failed suite [Automation Suite] -->

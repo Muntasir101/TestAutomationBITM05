@@ -4,7 +4,7 @@
 
   <test thread-count="5" name="Demo Test">
     <classes>
-      <class name="com.Screenshots.PageScreenshot"/>
+      <class name="com.TestNG.LoginDataDriven"/>
     </classes>
   </test> <!-- Test -->
 
